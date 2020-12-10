@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+body .mauve {
+  background-color: purple;
+  display: flex;
+  align-items: center;
+}
+body .mauve img {
+  height: 100px;
+  width: 100px;
+}
+body .mauve form {
+  margin-left: 70vh;
+  color: white;
+}
+body .mauve form input {
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+}
+body .mauve form button {
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  background-color: green;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid lightgray;
+}
+nav .nav-logo {
+  margin-left: 5px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+nav .nav-logo img {
+  height: 74px;
+}
+nav .navigation {
+  flex: 4;
+  padding: 40px 20px;
+  border-right: 2px solid lightgray;
+  border-left: 2px solid lightgray;
+}
+nav .navigation ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  font-size: 25px;
+  font-weight: bold;
+}
+nav .navigation ul a {
+  color: black;
+  text-decoration: none;
+}
+
+.coworking {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.coworking a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
