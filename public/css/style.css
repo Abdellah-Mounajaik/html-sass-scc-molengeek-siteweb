@@ -71,4 +71,34 @@ nav .navigation ul a {
   font-size: 25px;
 }
 
+section {
+  margin-left: 15%;
+  margin-right: 15%;
+  padding-top: 20px;
+}
+section h1 {
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  padding-bottom: 30px;
+}
+section h1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  height: 3px;
+  width: 80px;
+  background-color: purple;
+}
+section p {
+  font-size: 23px;
+}
+section ul li::marker {
+  color: purple;
+}
+section h2 {
+  font-size: 35px;
+}
+
 /*# sourceMappingURL=style.css.map */
