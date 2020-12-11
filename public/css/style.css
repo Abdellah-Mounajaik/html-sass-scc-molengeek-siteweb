@@ -101,4 +101,41 @@ section h2 {
   font-size: 35px;
 }
 
+footer {
+  background: black;
+  margin-top: 50px;
+}
+footer .reseaux {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px solid grey;
+}
+footer .reseaux ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+footer .reseaux ul li {
+  padding: 55px;
+  margin-left: 15px;
+  list-style: none;
+  color: white;
+}
+footer .reseaux ul li a {
+  color: white;
+  text-decoration: none;
+}
+footer .copy {
+  text-align: center;
+  padding: 50px;
+}
+footer .copy img {
+  height: 70px;
+  padding: 30px;
+}
+footer .copy p {
+  color: gray;
+  padding: 30px;
+}
+
 /*# sourceMappingURL=style.css.map */
